@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spacer</title>
+
+        <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>   
+    <link href="css/space.css" rel="stylesheet" type="text/css">
+     <link id="bsdp-css" href="css/datepicker3.css" rel="stylesheet">
+
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+{% load staticfiles %}
+    <link href="{% static  'spacr/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static  'spacr/space.css' %}" rel="stylesheet" type="text/css">
+     <link id="bsdp-css" href="{% static  'spacr/datepicker3.css' %}" rel="stylesheet" type="text/css">
+      
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <!--<ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>-->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+	<hr>
+	<nav class="navbar-form navbar-default">
+		<div class="container-fluid">
+			  <div class="form-group">
+				<label for="exampleInputName2">Location</label>
+				<input type="text" class="form-control" id="exampleInputName2" placeholder="Pittsburgh">
+			  </div>
+			  <div class="form-group">
+				<label for="exampleInputEmail2">Size</label>
+				<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Small">
+			  </div>
+			  <div class="form-group">
+				<label for="exampleInputEmail2">Start Date</label>
+				<input type="email" class="form-control" id="exampleInputEmail2" placeholder="11/12/2012">
+			  </div>
+			  <div class="form-group">
+				<label for="exampleInputEmail2">End Date</label>
+				<input type="email" class="form-control" id="exampleInputEmail2" placeholder="12/2/2014">
+			  </div>
+			  <button type="submit" class="btn btn-default">Update</button>
+		</div>
+			<form class="navbar-form">
+			<div class="container-fluid">
+				<div class="form-group">
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+					Price
+					<span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Lowest First</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Highest First</a></li>
+				  </ul>
+				</div>
+				</div>
+				<div class="form-group">
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+					Location
+					<span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Private</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Rental Complexes</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Professional</a></li>
+				  </ul>
+				</div>
+				</div>
+				<div class="form-group">
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+					Type
+					<span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Outdoor</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Garage</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Basement</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Attic</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="#">In-house</a></li>
+				  </ul>
+				</div>
+				</div>
+			</div>
+		</form>
+	</nav>
+	
+
+	
+    <div class="container-fluid">
+		<hr>
+        <a class="row" href="#">
+			<div class="col-md-3">
+				<img src="img/garage.jpg" class="img-thumbnail">
+			</div>
+			<div class="col-md-6">
+				<h2>Winni's Garage</h2>
+				<ul style="list-style-type:none">
+					<li>Location:</li>
+					<li>Type:</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				 <h1> $20 </h1>
+			</div>
+        </a>
+        <hr>
+		
+		
+	    <div class="row">
+			<div class="col-md-3">
+				<a class="listing-image" href="#">
+					<img src="" style="width:250px;height:250px">
+				</a>
+			</div>
+			<div class="col-md-6">
+
+				  <p>Listing</p>
+				  <p>test est test</p>
+
+			</div>
+			<div class="col-md-3">
+			
+
+				 <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+		
+			</div>
+			
+        </div>
+        <hr>
+		
+  </div>
+  
+      <hr>
+      <footer>
+
+        <div class="container">
+            <div class="row">               
+                <div class="col-md-12" id="footermargin">
+                    <span class="copyright">&copy; All Rights Reserved.</span>
+                </div>
+
+            </div>
+        </div>
+       
+      </footer>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

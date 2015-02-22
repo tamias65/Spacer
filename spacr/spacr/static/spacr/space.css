@@ -1,0 +1,162 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.clear {
+    clear: both;
+    margin: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background-color: #27aae1;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.jumbotron h1 {
+    font-size: 2em;
+}
+
+.navbar-form {
+    padding: 0;
+    margin-top: 20px;
+}
+
+.navbar-form .form-control {
+    width: 100%;
+}
+
+#title {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    margin: 30px 0 10px 0;
+}
+
+.pad {
+    padding: 0 5px;
+}
+
+.button-own {
+    margin: 10px 0;
+}
+
+#multiple {
+    font-size: 0.8em;
+    font-weight: 400;
+    display: inline-block;
+    color: #888;
+}
+
+.btn-primary {
+    background-color: #27aae1;
+    border-color: #26a9e0;
+}
+
+.btn-primary:hover {
+    background-color: #1579a0;
+    border-color: #1579a0;
+}
+
+#check {
+    border-color: #ccc;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.subtitle {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.feature {
+   
+}
+
+.places section {
+    position: absolute;
+	top: 0;
+	background: rgba(0,0,0,0.8);
+	width: 100%;
+	margin: 0 auto;
+	opacity: 0;
+	height: 0; 
+	transition: opacity .25s ease-in-out;
+    
+}
+
+.places:hover section {
+	opacity: 0.3;
+	height: 100%;
+	transition: opacity .25s ease-in-out;
+	
+}
+
+/* webkit solution */
+::-webkit-input-placeholder { 
+    text-align:left;
+    padding-left: 8px;
+}
+/* mozilla solution */
+input:-moz-placeholder { 
+    text-align:left;
+    padding-left: 8px;
+}
+
+#location input:-moz-placeholder{
+    padding-left: 0;
+}
+
+#location::-webkit-input-placeholder { 
+    padding-left: 0;
+}
+
+.btn-default {
+    color: #888;
+}
+
+.places {
+    position: relative;
+}
+
+.price {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    color: #fff;
+    padding: 5px 3%;
+    background: rgba(25, 25, 25,0.8);
+}
+
+.price h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.pri {
+    float: left;
+}
+.loc {
+    float: right;
+}
+
+.col-centered {
+    margin: 0 auto;
+}
