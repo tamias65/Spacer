@@ -40,7 +40,9 @@
     </script>
   </head>
   <body>
-   <nav class="navbar navbar-default navbar-fixed-top">
+   <nav class="navbar navbar-default navbar-fixed-top" style="
+    border-bottom: 1px solid #ccc;
+">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -79,8 +81,10 @@
           </form>-->
           <ul class="nav navbar-nav navbar-right">
             <li><a href="login.html">Log in</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Contact us</a></li>
+            <li><a href="index.html#r">Pittsburgh</a></li>
+            <li><a href="index.html#w">Benefits</a></li>
+            <li><a href="index.html#h">How It Works</a></li>
+            <li><a href="index.html#c">Contact us</a></li>
             
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -91,12 +95,13 @@
     <div class="col-md-7">
 		<br>
 		<div class="row">
-			<!--<div class="col-md-8">-->
-				<form class="form-inline">
+			<div class="col-md-6">
+				<!-- <form class="form-inline"> -->
 					<div class="form-group">
 						<input type="text" id="location" class="form-control" placeholder="Location">
 					</div>
-
+			</div>
+			<div class="col-md-6">
 					<div class="form-group">   
 						<div class="input-daterange input-group" id="datepicker">
 							<input type="text" placeholder="Start" class="datepicker input-md form-control" name="start" />
@@ -104,8 +109,14 @@
 							<input type="text" placeholder="End" class="datepicker input-md form-control" name="end" />
 						</div>
 					</div>
-					<div class="btn-group">			  
-						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+			
+				<!-- </form> -->
+		</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+					<div class="btn-group btn-block">			  
+						  <button type="button" class="btn btn-default dropdown-toggle btn-block" data-toggle="dropdown" aria-expanded="false">
 							Size <span class="caret"></span>
 						  </button>
 						  <ul class="dropdown-menu" role="menu">
@@ -114,8 +125,10 @@
 							<li><a href="#">Large</a></li>                        
 						  </ul>
 					</div>   	
-					<div class="btn-group">			  
-						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+			</div>
+			<div class="col-md-2">
+					<div class="btn-group btn-block">			  
+						  <button type="button" class="btn btn-default dropdown-toggle btn-block" data-toggle="dropdown" aria-expanded="false">
 							Price <span class="caret"></span>
 						  </button>
 						  <ul class="dropdown-menu" role="menu">
@@ -124,8 +137,10 @@
 							<li><a href="#"><$50</a></li>                        
 						  </ul>
 					</div>  
-					<div class="btn-group">			  
-						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+			</div>
+			<div class="col-md-2">
+					<div class="btn-group btn-block">			  
+						  <button type="button" class="btn btn-default dropdown-toggle btn-block" data-toggle="dropdown" aria-expanded="false">
 							Provider <span class="caret"></span>
 						  </button>
 						  <ul class="dropdown-menu" role="menu">
@@ -134,8 +149,10 @@
 							<li><a href="#">Prfessional</a></li>                        
 						  </ul>
 					</div>  
-					<div class="btn-group">			  
-						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+			</div>
+			<div class="col-md-2">
+					<div class="btn-group btn-block">			  
+						  <button type="button" class="btn btn-default dropdown-toggle btn-block" data-toggle="dropdown" aria-expanded="false">
 							Type <span class="caret"></span>
 						  </button>
 						  <ul class="dropdown-menu" role="menu">
@@ -146,101 +163,99 @@
 							<li><a href="#">In-house</a></li>						
 						  </ul>
 					</div>  
-					<button type="submit" class="btn btn-primary">Update</button>
-				</form>
-			<!--</div>-->
+			</div>
+			<div class="col-md-4">
+				<button type="submit" class="btn btn-primary btn-block">Update</button>
+			</div>
 		</div>
 		
         <a class="row" href="list.html">
-			<div class="col-md-4">
+				<div class="col-md-4 text-center">
+				<br>
 				<img src="img/1garage.jpg" class="img-thumbnail">
+				<h4><i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i></h4>
 			</div>
-			<div class="col-md-6">
-				<h3>Indoor Basement in Squirell Hill</h3>
-				<h4>Location: Squirrel Hill</h4>
-				<h4>Type: Garage</h4>
+			<div class="col-md-5">
+				<h3>Indoor Basement in Squirrel Hill</h3>
+					<div class="row">
+						<div class="col-xs-9">
+						<h4><i class="fa fa-map-marker"></i> Squirrel Hill, PA 15217</h4>
+						<h4><i class="fa fa-home"></i> Garage</h4>                
+						<br>
+						</div>
+					</div>     
 			</div>
-			<div class="col-md-2">
+			<div class="col-md-3">
 				<div class="priceInListing">
-					<h4><i class="fa fa-bed "></i> $4</h4>
-					<h4><i class="fa fa-bicycle "></i> $5</h4>
-					<h4><i class="fa fa-desktop"></i> $8</h4>
-					<h4><i class="fa fa-car "></i> $10</h4>
-                    
-				
+					<br>
+					<table>
+					<tr> 
+						<td><i class="fa fa-bed fa-lg"></i></td> <td><h4 class="text-right" style="text-indent: 10px"> $4/month</h4></td>
+					</tr>
+					<tr> 
+						<td><i class="fa fa-bicycle fa-lg"></i></td> <td><h4  class="text-right" style="text-indent: 10px">$5/month</h4></td>
+					</tr>
+					<tr> 
+						<td><i class="fa fa-desktop fa-lg"></i></td> <td><h4 class="text-right" style="text-indent: 10px">$8/month</h4></td>
+					</tr>
+					<tr> 
+						<td><i class="fa fa-car fa-lg"></i></td> <td><h4  class="text-right" style="text-indent: 10px">$10/month</h4></td>
+					</tr>
+					</table>
 				</div>
+
 			</div>
         </a>
         <hr>
 		
 		<a class="row" href="list.html">
-			<div class="col-md-4">
-				<img src="img/1garage.jpg" class="img-thumbnail">
-			</div>
-			<div class="col-md-6">
-				<h3>Indoor Basement in Squirell Hill</h3>
-				<h4>Location: Squirrel Hill</h4>
-				<h4>Type: Garage</h4>
-			</div>
-			<div class="col-md-2">
-				<div class="priceInListing">
-					<h4><i class="fa fa-bed fa-lg"></i> $4</h4>
-					<h4><i class="fa fa-bicycle fa-lg"></i> $5</h4>
-					<h4><i class="fa fa-desktop fa-lg"></i> $8</h4>
-					<h4><i class="fa fa-car fa-lg"></i> $10</h4>
-					<h4><i class="fa fa-book fa-lg"></i> $7</h4>
-					<h4><i class="fa fa-dropbox fa-lg"></i> $8</h4>
-				</ul>
+			<div class="panel">
+				<div class="panel-body">
+        
+          
+					<!--/stories-->
+					<div class="col-md-4 col-sm-4 text-center">
+						<img src="img/1garage.jpg" class="img-thumbnail">
+						<h4><i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star-o"></i> <i style="color:#f8b551" class="fa fa-star-o"></i> <i style="color:#f8b551" class="fa fa-star-o"></i> <i style="color:#f8b551" class="fa fa-star-o"></i></h4>
+						<br>
+						<br>  
+					</div>
+					<div class="col-md-5 col-sm-4">
+						<h3>Indoor Basement in Squirrel Hill.</h3>
+						<div class="row">
+							<div class="col-xs-9">
+							<h4><i class="fa fa-map-marker"></i> Squirrel Hill, PA 15217</h4>
+							<h4><i class="fa fa-home"></i> Garage</h4>                
+							<br>
+							</div>
+						</div>          
+					</div>
+					<div class="col-md-3 col-sm-4 text-center">
+						<div class="priceInListing">
+							<table>
+							<tr> 
+								<td><i class="fa fa-bed fa-lg"></i></td> <td> <h4 class="text-right" style="text-indent: 10px"> $4/month</h4></td>
+							</tr>
+							<tr> 
+								<td><i class="fa fa-bicycle fa-lg"></i></td> <td> <h4  class="text-right" style="text-indent: 10px">$5/month</h4></td>
+							</tr>
+							<tr> 
+								<td><i class="fa fa-desktop fa-lg"></i></td> <td> <h4 class="text-right" style="text-indent: 10px">$8/month</h4></td>
+							</tr>
+							<tr> 
+								<td><i class="fa fa-car fa-lg"></i></td> <td><h4  class="text-right" style="text-indent: 10px">$10/month</h4></td>
+							</tr>
+							</table>
+						</div>
+					</div>
 				</div>
 			</div>
         </a>
         <hr>
 		
-		<a class="row" href="list.html">
-			<div class="col-md-4">
-				<img src="img/1garage.jpg" class="img-thumbnail">
-			</div>
-			<div class="col-md-6">
-				<h3>Indoor Basement in Squirell Hill</h3>
-				<h4>Location: Squirrel Hill</h4>
-				<h4>Type: Garage</h4>
-			</div>
-			<div class="col-md-2">
-				<div class="priceInListing">
-					<h4><i class="fa fa-bed fa-lg"></i> $4</h4>
-					<h4><i class="fa fa-bicycle fa-lg"></i> $5</h4>
-					<h4><i class="fa fa-desktop fa-lg"></i> $8</h4>
-					<h4><i class="fa fa-car fa-lg"></i> $10</h4>
-					<h4><i class="fa fa-book fa-lg"></i> $7</h4>
-					<h4><i class="fa fa-dropbox fa-lg"></i> $8</h4>
-				</ul>
-				</div>
-			</div>
-        </a>
-        <hr>
 		
-		<a class="row" href="list.html">
-			<div class="col-md-4">
-				<img src="img/1garage.jpg" class="img-thumbnail">
-			</div>
-			<div class="col-md-6">
-				<h3>Indoor Basement in Squirell Hill</h3>
-				<h4>Location: Squirrel Hill</h4>
-				<h4>Type: Garage</h4>
-			</div>
-			<div class="col-md-2">
-				<div class="priceInListing">
-					<h4><i class="fa fa-bed fa-lg"></i> $4</h4>
-					<h4><i class="fa fa-bicycle fa-lg"></i> $5</h4>
-					<h4><i class="fa fa-desktop fa-lg"></i> $8</h4>
-					<h4><i class="fa fa-car fa-lg"></i> $10</h4>
-					<h4><i class="fa fa-book fa-lg"></i> $7</h4>
-					<h4><i class="fa fa-dropbox fa-lg"></i> $8</h4>
-				</ul>
-				</div>
-			</div>
-        </a>
-        <hr>
+		
+		
   </div>
   <div class="col-md-5">
 	<div id="map-canvas"></div>
