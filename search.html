@@ -36,10 +36,20 @@
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(mapCanvas, mapOptions)
-		var marker = new google.maps.Marker({
+		var marker2 = new google.maps.Marker({
 			position: loc,
 			map: map,
-			title: 'Hello World!'
+			title: 'listing1'
+		});
+		var marker2 = new google.maps.Marker({
+			position: new google.maps.LatLng(40.455909, -79.922552),
+			map: map,
+			title: 'listing2'
+			});
+		var marker3 = new google.maps.Marker({
+			position: new google.maps.LatLng(40.442683, -79.927831),
+			map: map,
+			title: 'listing3'
 		});
       }
 
