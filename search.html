@@ -28,14 +28,21 @@
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
       function initialize() {
+		var loc = new google.maps.LatLng(40.449377, -79.929534);
         var mapCanvas = document.getElementById('map-canvas');
         var mapOptions = {
-          center: new google.maps.LatLng(40.449377, -79.929534),
+          center: loc,
           zoom: 15,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(mapCanvas, mapOptions)
+		var marker = new google.maps.Marker({
+			position: loc,
+			map: map,
+			title: 'Hello World!'
+		});
       }
+
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
   </head>
