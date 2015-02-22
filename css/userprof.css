@@ -17,6 +17,10 @@ body {
     }
 }
 
+.active {
+    background-color: #1579a0;
+}
+
 .whatever {
      color: #fff;
       padding-top: 20px;
