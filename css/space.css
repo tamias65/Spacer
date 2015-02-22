@@ -1,5 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
+    background-color: #f5f5f5;
 }
 
 .clear {
@@ -15,6 +16,10 @@ body {
     background-color: #27aae1;
     border: none;
     border-radius: 0;
+}
+
+.jumbotron {
+    background-image:url('../img/bg.jpg');
 }
 
 .navbar-default .navbar-brand {
@@ -46,7 +51,7 @@ body {
 }
 
 #title {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.85);
     border-radius: 4px;
     margin: 30px 0 10px 0;
 }
@@ -219,4 +224,37 @@ input:-moz-placeholder {
 .providerimg {
     width: 25%;
     height: auto;
+}
+
+.well {
+    background:none;
+    border: none;
+}
+
+.aboutus {
+    padding-bottom: 88px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #fff;
+}
+
+footer ul {
+    text-align: center;
+}
+
+#footermargin {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.boicon {
+    padding-top: 40px;
+    font-size: 20px;
+    color: #27aae1;
+}
+
+.panel {
+    background-color: #f5f5f5;
 }
