@@ -160,3 +160,58 @@ input:-moz-placeholder {
 .col-centered {
     margin: 0 auto;
 }
+
+.adv ul {
+    margin: 40px 20px 88px 20px;
+    border: 4px solid #fff;
+    border-radius: 4px;
+    width: 100%;
+   
+}
+
+.adv ul li {
+    margin: 20px 10px;
+    color:#fff;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+.adv ul li:last-child {
+    padding-bottom: 30px;
+
+}
+
+.adv ul li p.users {
+    padding-top: 20px;
+    font-size: 2em;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+
+
+.fullw {
+    margin: 0;
+    padding:0;
+   width: 100%;
+    background: #27aae1;
+}
+
+.explore {
+    margin-bottom: 88px;
+}
+
+#logo {
+    width: 8%;
+    height: auto;
+}
+
+.userimg {
+    width: 18%;
+    height: auto;
+}
+
+.providerimg {
+    width: 25%;
+    height: auto;
+}
