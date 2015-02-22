@@ -46,8 +46,8 @@ body {
 }
 
 .priceInListing {
-	font-size: 6em;
-	align-items: center;
+	font-size: 1em;
+	align-items: left;
 }
 
 #title {
