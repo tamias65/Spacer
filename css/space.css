@@ -208,8 +208,13 @@ input:-moz-placeholder {
 .fullw {
     margin: 0;
     padding:0;
-   width: 100%;
+    width: 100%;
     background: #27aae1;
+    background-image: url("../img/bkk.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .explore {
