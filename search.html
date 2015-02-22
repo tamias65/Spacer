@@ -21,8 +21,8 @@
     <![endif]-->
 	<style>
       #map-canvas {
-        width: 500px;
-        height: 800px;
+        width: 520px;
+        height: 630px;
       }
     </style>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
@@ -30,8 +30,8 @@
       function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
         var mapOptions = {
-          center: new google.maps.LatLng(44.5403, -78.5463),
-          zoom: 8,
+          center: new google.maps.LatLng(40.449377, -79.929534),
+          zoom: 15,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(mapCanvas, mapOptions)
@@ -212,14 +212,14 @@
 				<div class="col-md-4 text-center">
 				<br>
 				<img src="img/backyard.jpg" class="img-thumbnail">
-				<h4><i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i></h4>
+				<h4><i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star-half-o"></i></h4>
 			</div>
 			<div class="col-md-5">
-				<h3>Indoor Basement in Squirrel Hill</h3>
+				<h3>Lots of room in the backyard!!</h3>
 					<div class="row">
 						<div class="col-xs-9">
-						<h4><i class="fa fa-map-marker"></i> Squirrel Hill, PA 15217</h4>
-						<h4><i class="fa fa-home"></i> Garage</h4>                
+						<h4><i class="fa fa-map-marker"></i> Shadyside, PA 15213</h4>
+						<h4><i class="fa fa-home"></i> Outdoor</h4>                
 						<br>
 						</div>
 					</div>     
@@ -229,13 +229,10 @@
 					<br>
 					<table>
 					<tr> 
-						<td><i class="fa fa-bed fa-lg"></i></td> <td><h4 class="text-right" style="text-indent: 10px"> $4/month</h4></td>
-					</tr>
-					<tr> 
 						<td><i class="fa fa-bicycle fa-lg"></i></td> <td><h4  class="text-right" style="text-indent: 10px">$5/month</h4></td>
 					</tr>
 					<tr> 
-						<td><i class="fa fa-desktop fa-lg"></i></td> <td><h4 class="text-right" style="text-indent: 10px">$8/month</h4></td>
+						<td><i class="fa fa-motorcycle fa-lg"></i></td> <td><h4  class="text-right" style="text-indent: 10px">$7/month</h4></td>
 					</tr>
 					<tr> 
 						<td><i class="fa fa-car fa-lg"></i></td> <td><h4  class="text-right" style="text-indent: 10px">$10/month</h4></td>
@@ -247,26 +244,81 @@
         </a>
         <hr>
 		
+		<a class="row" href="#">
+				<div class="col-md-4 text-center">
+				<br>
+				<img src="img/publicstorage.jpg" class="img-thumbnail">
+				<h4><i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star"></i> <i style="color:#f8b551" class="fa fa-star-o"></i></h4>
+			</div>
+			<div class="col-md-5">
+				<h3>Safe and secured storage</h3>
+					<div class="row">
+						<div class="col-xs-9">
+						<h4><i class="fa fa-map-marker"></i> Shadyside, PA 15213</h4>
+						<h4><i class="fa fa-home"></i> Garage</h4>                
+						<br>
+						</div>
+					</div>     
+			</div>
+			<div class="col-md-3">
+				<div class="priceInListing">
+					<br>
+					<table>
+					<tr> 
+						<td><i class="fa fa-motorcycle fa-lg"></i></td> <td><h4 class="text-right" style="text-indent: 10px"> $6/month</h4></td>
+					</tr>
+					<tr> 
+						<td><i class="fa fa-book fa-lg"></i></td> <td><h4  class="text-right" style="text-indent: 10px">$2/month</h4></td>
+					</tr>
+					<tr> 
+						<td><i class="fa fa-cubes fa-lg"></i></td> <td><h4 class="text-right" style="text-indent: 10px">$8/month</h4></td>
+					</tr>
+					</table>
+				</div>
+
+			</div>
+        </a>
+        <hr>
 		
 		
 		
   </div>
   <div class="col-md-5">
+	<br>
 	<div id="map-canvas"></div>
   </div>
    
 	<footer>
 
-	<div class="container">
-		<div class="row">               
-			<div class="col-md-12" id="footermargin">
-				<span class="copyright">&copy; All Rights Reserved.</span>
-			</div>
-
-		</div>
-	</div>
-
-	</footer>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-12">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-envelope boicon"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook boicon"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin boicon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-12" id="footermargin">
+                    <span class="copyright">&copy; 2015. Spacer. All Rights Reserved.</span>
+                </div>
+                <!--<div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+       
+      </footer>
     
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
